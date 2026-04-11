@@ -1,0 +1,31 @@
+{
+    "Total Users": "إجمالي المستخدمين",
+    "Active Users": "مستخدمون نشطون",
+    "Inactive Users": "مستخدمون غير نشطون",
+    "Name": "الاسم",
+    "Email address": "البريد الإلكتروني",
+    "Email verified at": "تاريخ التحقق من البريد الإلكتروني",
+    "Created at": "تاريخ الإنشاء",
+    "Updated at": "تاريخ التحديث",
+    "password": "كلمة المرور",
+
+    "User": "المستخدم",
+    "Users": "المستخدمون",
+    "Leson": "الدرس",
+    "Lesons": "الدروس",
+    "Sunday": "الأحد",
+    "Monday": "الإتنين",
+    "Tuesday": "الثلاثاء",
+    "Wednesday": "الأربعاء",
+    "Thursday": "الخميس",
+    "Friday": "الجمعة",
+    "Saturday": "السبت",
+    "Teachers": "المعلمين",
+    "Teacher": "المعلم",
+    "Schedules": "الجداول",
+    "Schedule": "الجدول",
+    "Subjects": "المواد",
+    "Subject": "المادة"
+
+
+}
