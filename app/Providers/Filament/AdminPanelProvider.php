@@ -67,7 +67,7 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->plugins([
-                FilamentShieldPlugin::make(),
+                 FilamentShieldPlugin::make(),
                 FilamentAwinTheme::make(),
                 FilamentBackgroundsPlugin::make()
                     ->imageProvider(
