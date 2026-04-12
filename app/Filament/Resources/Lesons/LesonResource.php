@@ -55,9 +55,4 @@ class LesonResource extends Resource
     {
         return __('Lesons');
     }
-
-    public static function canAccess(): bool
-{
-    return true; // هذا سيجعل المورد يظهر دائماً لأي مستخدم مسجل
-}
 }

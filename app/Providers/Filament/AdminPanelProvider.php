@@ -63,11 +63,11 @@ class AdminPanelProvider extends PanelProvider
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
             ])
-            // ->authMiddleware([
-            //     Authenticate::class,
-            // ])
+            ->authMiddleware([
+                Authenticate::class,
+            ])
             ->plugins([
-                //  FilamentShieldPlugin::make(),
+                FilamentShieldPlugin::make(),
                 FilamentAwinTheme::make(),
                 FilamentBackgroundsPlugin::make()
                     ->imageProvider(
