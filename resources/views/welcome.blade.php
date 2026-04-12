@@ -91,7 +91,7 @@
 
 <section class="relative overflow-hidden">
         <div class="absolute inset-0">
-            <img src="{{ asset('images/infsp.jpg') }}" alt="ورشة تكوين مهني" class="w-full h-full object-cover">
+            <img src="{{ asset('images/infsp.png') }}" alt="ورشة تكوين مهني" class="w-full h-full object-cover">
         </div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
             <div class="max-w-3xl text-white">
