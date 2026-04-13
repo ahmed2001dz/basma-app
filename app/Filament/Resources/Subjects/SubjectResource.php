@@ -13,6 +13,7 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use UnitEnum;
 
 class SubjectResource extends Resource
 {
@@ -45,6 +46,7 @@ class SubjectResource extends Resource
             'edit' => EditSubject::route('/{record}/edit'),
         ];
     }
+
     public static function getModelLabel(): string
     {
         return __('Subject');
@@ -53,5 +55,10 @@ class SubjectResource extends Resource
     public static function getPluralModelLabel(): string
     {
         return __('Subjects');
+    }
+
+    public static function getNavigationGroup(): string|UnitEnum|null
+    {
+        return __('Content');
     }
 }

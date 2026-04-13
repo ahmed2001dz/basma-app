@@ -13,10 +13,12 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use UnitEnum;
 
 class LesonResource extends Resource
 {
     protected static ?string $model = Leson::class;
+
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
 
@@ -41,8 +43,8 @@ class LesonResource extends Resource
     {
         return [
             'index' => ListLesons::route('/'),
-            'create' => CreateLeson::route('/create'),
-            'edit' => EditLeson::route('/{record}/edit'),
+            // 'create' => CreateLeson::route('/create'),
+            // 'edit' => EditLeson::route('/{record}/edit'),
         ];
     }
 
@@ -54,5 +56,10 @@ class LesonResource extends Resource
     public static function getPluralModelLabel(): string
     {
         return __('Lesons');
+    }
+
+    public static function getNavigationGroup(): string|UnitEnum|null
+    {
+        return __('Content');
     }
 }

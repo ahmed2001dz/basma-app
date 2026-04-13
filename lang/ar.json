@@ -25,7 +25,28 @@
     "Schedules": "الجداول",
     "Schedule": "الجدول",
     "Subjects": "المواد",
-    "Subject": "المادة"
-
+    "Subject": "المادة",
+    "Content": "المحتوى",
+    "Last name": "الاسم الأخير",
+    "First name": "الاسم الأول",
+    "Birth date": "تاريخ الميلاد",
+    "Registration number": "رقم التسجيل",
+    "Specialty": "التخصص",
+    "Level": "المستوى",
+    "Wilaya": "الولاية",
+    "Commune": "البلدية",
+    "Gender": "الجنس",
+    "Address": "العنوان",
+    "NIN": "الرقم الوطني للتعريف",
+    "Birth place": "مكان الميلاد",
+    "Phone": "الهاتف",
+    "Specialties": "التخصصات",
+     "Students": "الطلاب",
+     "Student": "الطالب",
+     "Code": "الرمز",
+     "Name (AR)": "الاسم (عربي)",
+     "Name (EN)": "الاسم (إنجليزي)",
+        "Duration": "المدة",
+     "Active": "الحالة"
 
 }

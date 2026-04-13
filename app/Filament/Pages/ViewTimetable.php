@@ -4,12 +4,16 @@ namespace App\Filament\Pages;
 
 use App\Models\Schedule;
 use Filament\Pages\Page;
+use UnitEnum;
 
 class ViewTimetable extends Page
 {
     protected string $view = 'filament.pages.view-timetable';
 
     protected static ?string $title = 'جدول الحصص';
+
+
+
 
     public function getViewData(): array
     {
@@ -24,4 +28,10 @@ class ViewTimetable extends Page
             ],
         ];
     }
+
+    public static function getNavigationGroup(): string|UnitEnum|null
+    {
+        return __('Content');
+    }
+
 }

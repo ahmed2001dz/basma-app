@@ -13,6 +13,8 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
 use Filament\Support\Icons\Heroicon;
 use Filament\Tables\Table;
+use UnitEnum;
+
 
 class ScheduleResource extends Resource
 {
@@ -57,4 +59,8 @@ class ScheduleResource extends Resource
         return __('Schedules');
     }
 
+    public static function getNavigationGroup(): string|UnitEnum|null
+    {
+        return __('Content');
+    }
 }
